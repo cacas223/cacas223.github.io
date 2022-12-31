@@ -17,9 +17,9 @@
     
     
     <entry>
-      <title>前端题总结</title>
-      <link href="/2022/12/27/2022-12-27%E5%89%8D%E7%AB%AF%E9%A2%98%E6%80%BB%E7%BB%93/"/>
-      <url>/2022/12/27/2022-12-27%E5%89%8D%E7%AB%AF%E9%A2%98%E6%80%BB%E7%BB%93/</url>
+      <title>前端错题总结</title>
+      <link href="/2022/12/27/2022-12-27%E5%89%8D%E7%AB%AF%E9%A2%98%E9%94%99%E9%A2%98%E6%80%BB%E7%BB%93/"/>
+      <url>/2022/12/27/2022-12-27%E5%89%8D%E7%AB%AF%E9%A2%98%E9%94%99%E9%A2%98%E6%80%BB%E7%BB%93/</url>
       
         <content type="html"><![CDATA[<hr><h3 id="1-行内块元素"><a href="#1-行内块元素" class="headerlink" title="1.行内块元素"></a>1.行内块元素</h3><p>span a strong em del ins img</p><h3 id="2-组合标题元素"><a href="#2-组合标题元素" class="headerlink" title="2.组合标题元素"></a>2.组合标题元素</h3><p>hgroup</p><h3 id="3-元素不可见"><a href="#3-元素不可见" class="headerlink" title="3.元素不可见"></a>3.元素不可见</h3><p>display:none</p>]]></content>
       
