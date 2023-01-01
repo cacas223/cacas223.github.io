@@ -593,11 +593,11 @@ body::-webkit-scrollbar {
 /* 修改灯笼的字体 */
 
 .d-box .d1::after {
-    content: '虎年大吉';
+    content: '兔年大吉';
 }
 
 .d-box1 .d1::after {
-    content: '万事顺遂';
+    content: '万事如意';
 }
 
 .d-box1 .d1,
@@ -773,7 +773,7 @@ body::-webkit-scrollbar {
     right: 51px;
     width: 75px;
     border-radius: 57px/89px;
-    background: url(https://bu.dusays.com/2021/02/03/7e1a77cf800cf.png) no-repeat;
+    background: url(https://0219love.top/img/%E5%85%94%E5%B9%B4.jpg) no-repeat;
     background-position: center;
     background-size: 92px auto;
 }
@@ -872,3 +872,30 @@ body::-webkit-scrollbar {
 /* 灯笼 END */
 
 @import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css";
+
+/* 个人信息卡片背景图 */
+
+[data-theme="light"] #aside-content>.card-widget.card-info {
+    background-image: url(https://sourcebucket.s3.ladydaily.com/img/snowflower.webp);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+}
+
+[data-theme="dark"] #aside-content>.card-widget.card-info {
+    background-image: url(https://sourcebucket.s3.ladydaily.com/img/aurora.webp);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 100%;
+}
+
+
+/* 设置文字内容 :nth-child(1)的作用是选择第几个 */
+
+.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(1):before {
+    content: '输入QQ号会自动获取昵称和头像🐧';
+}
+
+.el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
+    content: '收到回复将会发送到您的邮箱📧';
+}
