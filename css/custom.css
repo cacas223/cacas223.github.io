@@ -899,3 +899,16 @@ body::-webkit-scrollbar {
 .el-input.el-input--small.el-input-group.el-input-group--prepend:nth-child(2):before {
     content: '收到回复将会发送到您的邮箱📧';
 }
+
+
+/* 欢迎信息 */
+
+#welcome-info {
+    background: linear-gradient(45deg, #b9f4f3, #e3fbf9);
+    border-radius: 18px;
+    padding: 8px;
+}
+
+[data-theme="dark"] #welcome-info {
+    background: #212121;
+}
