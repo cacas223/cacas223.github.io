@@ -126,21 +126,20 @@ if (document.body.clientWidth > 992) {
             borderRadius: '2em',
             zoom: 0.9
         });
-        //自定义（去掉以下注释，并注释掉其他的查看效果）
 
         $("#myscoll").nekoScroll({
-            nekoname: 'neko1', //nekoname，相当于id
-            nekoImg: 'img/猫咪.png', //neko的背景图片
-            scImg: "img/绳1.png", //绳子的背景图片
-            //背景颜色，没有绳子背景图片时有效
+            nekoname: 'neko1',
+            nekoImg: 'img/猫咪.png',
+            scImg: "img/绳1.png",
+
             zoom: 0.9, //绳子长度的缩放值
-            hoverMsg: '你好~喵', //鼠标浮动到neko上方的对话框信息
-            right: '100px', //距离页面右边的距离
-            fontFamily: '楷体', //对话框字体
-            fontSize: '14px', //对话框字体的大小
-            color: '#1e90ff', //对话框字体颜色
-            scroWidth: '8px', //绳子的宽度
-            z_index: 100, //不用解释了吧
+            hoverMsg: '你好~喵',
+            right: '100px',
+            fontFamily: '楷体',
+            fontSize: '14px',
+            color: '#1e90ff',
+            scroWidth: '8px',
+            z_index: 100,
             during: 1200, //从顶部到底部滑动的时长
         });
 
