@@ -22,7 +22,7 @@ function switchNightMode() {
                     title: "关灯了😜",
                     message: "当前已成功切换至黑夜模式!",
                     position: 'top-left',
-                    offset: 400,
+                    offset: 50,
                     showClose: true,
                     type: "warning",
                     duration: 5000
@@ -39,7 +39,7 @@ function switchNightMode() {
                     title: "开灯了😜",
                     message: "当前已成功切换至白天模式！",
                     position: 'top-left',
-                    offset: 400,
+                    offset: 50,
                     showClose: true,
                     type: "warning",
                     duration: 5000

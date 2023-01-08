@@ -2,7 +2,7 @@ document.addEventListener('pjax:complete', tonav);
 document.addEventListener('DOMContentLoaded', tonav);
 //响应pjax
 function tonav() {
-    document.getElementById("name-container").setAttribute("style", "display:none");
+
     var position = $(window).scrollTop();
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
@@ -16,7 +16,7 @@ function tonav() {
         position = scroll;
     });
     //修复没有弄右键菜单的童鞋无法回顶部的问题
-    document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];
+
 }
 
 function scrollToTop() {
