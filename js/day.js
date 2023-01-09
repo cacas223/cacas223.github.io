@@ -88,12 +88,7 @@ if (m == 7 && dd == 1) { //建党节
         sessionStorage.setItem("isPopupWindow", "1");
     }
 }
-if (m == 7 && dd == 14) { //圣诞节
-    if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("今天我生日，欢迎来访问💑");
-        sessionStorage.setItem("isPopupWindow", "1");
-    }
-}
+
 
 if (m == 9 && dd == 10) { //教师节
     if (sessionStorage.getItem("isPopupWindow") != "1") {
