@@ -2250,6 +2250,8 @@ figure {
 
 /* 消息弹窗 */
 
+
+/* 
 .snackbar-container {
     border-radius: 0 !important;
     display: flex;
@@ -2297,4 +2299,4 @@ figure {
     to {
         width: 100%;
     }
-}
+} */
